@@ -1,0 +1,408 @@
+*{
+    font-family: sans-serif;
+}
+
+.header{
+    width: 100%;
+    height:310px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("lib/lib1.png");
+    background-position: center;
+
+    border-radius: 20px;
+}
+.head{
+    display: flex;
+}
+.logo{ 
+    margin: 1px;
+    width: 400px;
+    height: 250px;
+}
+.logo img{
+    border-radius: 100px;
+    float: left;
+}
+.hname span {
+    color: aliceblue;
+    width: 600px;
+    height: 250px;
+    float: right;
+    position: relative;
+    top: 80px;
+    left:250px
+
+}
+.menu  {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    height: 50px;
+}
+ ul li{
+    margin: 0px;
+    display: inline-block;
+    width: 150px;
+}
+li a{
+
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+        border: 4px;    
+    padding: 10px;
+
+    border-radius: 12px;
+}
+li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+.f{
+    position: relative;
+    top: 40px;
+}
+.home{
+    width: 1000px;
+    height: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book1{
+    margin: 1px;
+    width: 950px;
+    height: 400px;
+    display: flex;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(110, 110, 117);
+    border-radius: 15px;
+}
+.book1 img{
+    width: 400px;
+    height: 400px;
+    float:left;
+     border-radius: 15px;
+}
+.book1 div{
+    padding: 10px;
+    float: right;
+}
+
+.book2{
+    margin: 1px;
+    width: 950px;
+    height: 400px;
+    display: flex;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(169, 169, 173);
+    border-radius: 15px;
+}
+.book2 img{
+    width: 300px;
+    height: 400px;
+    float:right;
+    margin-left: auto;
+     border-radius: 15px;
+    
+}
+.book2 div{
+    padding: 10px;
+    width: 600px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book3{
+    margin: 1px;
+    width: 950px;
+    height: 400px;
+    display: flex;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+     background-color: rgb(189, 189, 189);
+      border-radius: 15px;
+}
+.book3 img{
+
+    width: 400px;
+    height: 400px;
+    float:left;
+    margin-left: auto;
+     border-radius: 15px;
+}
+.book3 div{
+    padding: 10px;
+    float: right;
+}
+.more{
+    width: 1000px;
+    height: 600px;
+}
+.booksmore1{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+}
+.booksmore2{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+}
+.contact{
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.map{
+    width: 1000px;
+    height: 400px;
+    float: left;
+}
+.info{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+}
+.details{
+    width: 500px;
+    height: 300px;
+    float: right;
+    background-color: blanchedalmond;
+}
+.address{
+    width: 500px;
+    height: 300px;
+    float: left;
+    background-color: rgb(171, 169, 166);
+}
+iframe{
+    border-color: black;
+    border-radius: 15px;
+}
+.about{
+    width: 1050px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lib1{
+    width: 1050px;
+    height: 400px;
+}
+
+.us{
+    width: 300px;
+    height: 400px;
+    float: left;
+    text-align: justify;    
+}
+.libpic{
+    width: 700px;
+    height: 800px;
+    float: right;
+    text-align: justify;
+    font-size: 18px;
+}
+.lib{
+    width: 500px;
+    height: 400px;
+    float: left;
+}
+.lib34{
+    width: 500px;
+    height: 400px;
+    float: right;
+}
+.lib3{
+    height: 400px;
+    width: 500px;
+    float: right;
+}
+.lib3 img{
+    border-radius: 15px;
+}
+.libpic img{
+    border-radius: 15px;
+}
+.service{
+    width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+table{
+    width: 1000px;
+    height: 800px;
+    text-align: center;
+}
+tr:nth-last-of-type(even){
+  background-color:rgba(231, 198, 158, 0.89)
+}
+tr:nth-last-of-type(odd){
+  background-color:rgba(255, 228, 196, 0.74)
+}
+tr:nth-child(1){
+    background-color:blanchedalmond;
+}
+    .register{
+    width: 1000px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.general{
+    width: 500px;
+    height: 450px;
+    float: left;
+    background-color: aquamarine;
+}
+.order{
+    width: 500px;
+    height: 450px;
+    float: right;
+    background-color: beige;
+}
+.feed{
+    width: 1000px;
+    height: 250px;
+    background-color: azure;
+    text-align: center;
+    float: left;
+}
+.button{
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+}
+.button input{
+    width: 200px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.button input{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: aliceblue;
+    border: 1px;
+    opacity:inherit;
+    border-color: rgba(0, 0, 0, 0.395);
+}
+.button input:hover{
+    background-color:rgba(0, 0, 0, 0.434);
+    color: rgb(0, 0, 0);
+}
+.general input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.774);
+    margin: 1px;
+    margin-left: 15px;
+    border: 1px;
+}
+.general input:hover{
+    background-color: rgba(255, 255, 255, 0.397);
+}
+.general select{
+     width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.68);
+    margin: 1px;
+    margin-left: 15px;
+        border: 1px;
+
+}
+.general select:hover{
+    background-color: rgba(255, 255, 255, 0.128);
+}
+.order input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.066);
+    margin: 1px;
+    margin-left: 15px;
+        border: 1px;
+}
+.order input:hover{
+    background-color: rgba(255, 255, 255, 0.128);
+}
+.order select{
+     width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.066);
+    margin: 1px;
+        border: 1px;
+}
+.order select:hover{
+    background-color: rgba(255, 255, 255, 0.128);
+}
+.feed textarea{
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.066);
+        border: 1px;
+        padding: 10px;
+}
+    .register1{
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.order1{
+    width: 1000px;
+    height: 600px;
+    float: left;
+    background-color: beige;
+}
+.order1 input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.066);
+    margin: 1px;
+    margin-left: 15px;
+        border: 1px;
+}
+.order1 input:hover{
+    background-color: rgba(255, 255, 255, 0.128);
+}
+.order1 select{
+     width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.066);
+    margin: 1px;
+        border: 1px;
+}
+.order1 select:hover{
+    background-color: rgba(255, 255, 255, 0.128);
+}
